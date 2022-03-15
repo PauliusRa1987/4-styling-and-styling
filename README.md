@@ -7,13 +7,17 @@ _Paulius Ra practis-project_
 
 This project is for educational porpuses only. 
 
-Site published at: https://pauliusra1987.github.io/2-practis-with-404-page/
+Site published at: https://pauliusra1987.github.io/4-styling-and-styling/
 
 Design: https://dribbble.com/shots/6857288/attachments/6857288-Yoga-studio-web-ui-concept?mode=media
 
 ## Project features
 
 -   Github pages
+-   fixt with container
+-   header: logo + nav
+-   png files
+
 
 ## Authors
 
