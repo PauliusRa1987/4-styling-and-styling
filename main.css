@@ -1,10 +1,21 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 header, 
 main {
-    width: 800px;
-    margin-left: calc(50% - 400px);
+    width: 1000px;
+    margin-left: calc(50% - 500px);
 }
 main {
     margin-top: 100px;
@@ -34,4 +45,20 @@ a:hover {
 }
 a:first-child {
     border-bottom: 2px solid orangered;
+}
+body > main {
+    margin-top: 100px;
+}
+main > div {
+ width: 45%;
+ float: left;
+ padding-right: 10%;
+}
+
+
+
+}
+main > img {
+    width: 55%;
+
 }
