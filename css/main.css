@@ -14,15 +14,15 @@ body {
 }
 header, 
 main {
+    display: inline-block;
     width: 1000px;
     margin-left: calc(50% - 500px);
+    margin-top: 20px;
 }
 main {
     margin-top: 100px;
 }
-header{
-    display: inline-block;
-}
+
 img {
     float: left;
     height: 40px;
@@ -31,7 +31,7 @@ nav {
     float: right;
     margin-top: 13px;
 }
-a {
+nav > a {
     display: inline-block;
     font-size: 18px;
     line-height: 1.08em;
@@ -40,10 +40,10 @@ a {
     color: black;
     padding-bottom: 2px;
 }
-a:hover {
+nav > a:hover {
     border-bottom: 2px solid orangered;
 }
-a:first-child {
+nav > a:first-child {
     border-bottom: 2px solid orangered;
 }
 body > main {
@@ -54,11 +54,28 @@ main > div {
  float: left;
  padding-right: 10%;
 }
-
-
-
-}
 main > img {
     width: 55%;
+    height: 380px;
+    object-fit: contain;
+    object-position: center;
+}
+div > h1 {
+    font-weight: normal;
+    font-family: cursive, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    margin-bottom: 10px;
+}
 
+div > p {
+    margin-bottom: 25px;
+}
+div > a {
+    padding: 10px 25px;
+    background-color: orangered;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+span {
+    color: orangered;
 }
